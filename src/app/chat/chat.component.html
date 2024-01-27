@@ -1,0 +1,15 @@
+<div class="chat-container">
+    <ul class="messages-list" id="messagesList">
+      <li *ngFor="let msg of messages">
+        <span class="message-user">{{ msg.split(':')[0] }}:</span>
+        <span>{{ msg.split(':')[1] }}</span>
+      </li>
+    </ul>
+  
+    <div class="chat-inputs">
+      <input type="text" [(ngModel)]="userName" placeholder="User Name" />
+      <input type="text" [(ngModel)]="message" placeholder="Message" />
+      <button (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+  

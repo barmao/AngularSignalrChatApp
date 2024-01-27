@@ -1,0 +1,52 @@
+/* Chat container */
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Message list */
+  .messages-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .messages-list li {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Input fields and button */
+  .chat-inputs input,
+  .chat-inputs button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .chat-inputs button {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .chat-inputs button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* User and message display */
+  .message-user {
+    font-weight: bold;
+  }
+  
